@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Top 3 cars </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+
+    <body>
+      
+       <div class="header">
+            <header>
+            
+                <a href="index.html"><h1>De top 3 allermooiste auto's</h1></a>
+
+           
+                <nav>
+                    <div class="navigatie">
+                        <a href="pag1.html"> Rolls-Royce Wraith Black Badge</a>
+                        <a href="pag2.html"> Audi R8 V10 plus</a>
+                        <a href="pag3.html"> NSU TT</a>
+                    </div>
+                </nav>
+          
+            </header>
+        </div>
+        
+        <hr color="black">
+
+        <div class="main">
+            <main>
+                
+                <div class="RR">
+                <h2>Rolls-Royce Wraith Black Badge</h2>
+                <p>Voor meer informatie, klik <a href="pag1.html"> hier</a> óf op de afbeelding!</p>
+                <p><a href="pag1.html"><img src="pictures/rr.png" height="100"></a></p>
+                </div>
+                
+                <div class="Audi">
+                <h2>Audi R8 V10 plus</h2>
+                <p>Voor meer informatie, klik <a href="pag2.html"> hier</a> óf op de afbeelding!</p>
+                <p><a href="pag2.html"><img src="pictures/audi.png" height="100"></a></p>
+                </div>
+
+                <div class="NSU">
+                <h2>NSU TT</h2>
+                <p>Voor meer informatie, klik <a href="pag3.html"> hier</a> óf op de afbeelding!</p>
+                <p><a href="pag3.html"><img src="pictures/nsu.png" height="100"></a></p>
+                </div>
+            
+                <h2>Uiteraard ben ik ook benieuwd naar jouw favoriete auto!</h2>
+                <p>Laat het hieronder achter!</p>
+
+            </main>   
+               
+            <form class="form" name="contact" method="POST" data-netlify="true">
+                <p> <!-- naam-->
+                    <label>Naam: <input type="text" name="name" /></label>   
+                </p>
+                    
+                <p><!--email-->
+                    <label>Email: <input type="email" name="email" /></label>
+                </p>
+            
+                <p>  
+                    <label>Favoriete autocultuur:</label>
+                    <label>Europees: <input type="checkbox" id="Europees" name="Europees" /></label>
+                    <label>Amerikaans: <input type="checkbox" id="Amerikaans" name="Amerikaans" /></label>
+                    <label>Japans: <input type="checkbox" id="Japans" name="Japans" /></label>
+                </p>
+            
+                <p> 
+                    <label>Favoriete kleur auto: <input type="color" name="Kleur" /></label>
+                </p>
+                    
+                <p>
+                    <label>Favoriete auto: <textarea name="auto"></textarea></label>
+                </p>
+            
+                <p>  <!--upload je laatste recept (upload een file)-->
+                    <label>Stuur meteen een foto mee!: <input type="file" name="Recept" /></label>
+                </p>
+                    
+                <p><!--een button van het type "reset" om het formulier leeg te kunnen maken-->
+                    <button type="reset">Reset</button>
+                </p>
+                    
+                <p><!--een button van het type "submit" om het formulier te kunnen verzenden-->
+                    <button type="submit">submit</button>
+                </p>
+                </form>
+            
+        </div>
+        
+        <hr color="black">
+
+        <div class="footer">
+    
+            <footer>
+                <a href="error.html" >disclaimer</a>
+                <a href="error.html" >contact</a>
+                <a href="error.html" >FAQ </a>         
+            </footer>
+        </div>
+
+    </body>
+</html>
